@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -83,4 +84,247 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.arrow-btn a {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  background: #f10b0b;
+  display: block;
+  border-radius: 100%;
+}
+
+.arrow-btn span {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .header {
+  display: inline-block;
+  width: 100%;
+  height: 750px;
+  background-image: url(../img/falloxbow-1058032-1917x800.jpg);
+}
+
+.wrapper .header h1 {
+  font-size: 70px;
+  font-family: 'Exo', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.wrapper .header form {
+  text-align: center;
+  padding-top: 230px;
+}
+
+.wrapper .header form input {
+  width: 30%;
+  height: 20px;
+  border-bottom: 3px solid white;
+  background-color: transparent;
+}
+
+.wrapper .header form p {
+  font-family: 'Exo', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.wrapper .header form button {
+  background-color: #e9352f;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 15px 0px #272626;
+  font-size: 15px;
+}
+
+.wrapper .main {
+  width: 100%;
+  height: 600px;
+}
+
+.wrapper .main .block {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .main .block .box1 {
+  width: 100%;
+  height: 600px;
+  height: 500px;
+}
+
+.wrapper .main .block .box1 h3 {
+  font-family: 'Exo', sans-serif;
+  font-size: 25px;
+  padding-top: 90px;
+  padding-left: 10px;
+}
+
+.wrapper .main .block .box1 .table {
+  width: auto;
+  height: 300px;
+  padding-top: 50px;
+}
+
+.wrapper .main .block .box1 .file {
+  width: 400px;
+  height: 10px;
+}
+
+.wrapper .main .block .box1 label {
+  font-family: 'Exo', sans-serif;
+  font-size: 15px;
+}
+
+.wrapper .main .block .box1 div {
+  padding: 10px;
+}
+
+.wrapper .main .block .box2 {
+  width: 100%;
+  height: 600px;
+  height: 500px;
+}
+
+.wrapper .main .block .box2 h2 {
+  font-family: 'Exo', sans-serif;
+  font-size: 25px;
+  padding-top: 90px;
+}
+
+.wrapper .main .block .box2 p {
+  font-family: 'Exo', sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.wrapper .main .block .box2 button {
+  background-color: #e9352f;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-family: 'Exo', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 15px 15px 0px #272626;
+  margin-left: 70%;
+  margin-top: 10%;
+  font-size: 15px;
+}
+
+.wrapper .main .block .box2 input {
+  width: 30%;
+  height: 20px;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.wrapper .footer {
+  width: 100%;
+  height: 400px;
+  background-color: #6d6df3;
+}
+
+.wrapper .footer p {
+  font-family: 'Exo', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.wrapper .footer .icons {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.wrapper .footer .icons .fa {
+  width: 20px;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.wrapper .footer .icons .fa .fa-facebook {
+  color: white;
+}
+
+.wrapper .footer .icons .fa .fa-twitter {
+  color: white;
+}
+
+.wrapper .footer .icons .fa .fa-google {
+  color: white;
+}
+
+.wrapper .footer .icons .fa .fa-linkedin {
+  color: white;
+}
+
+.wrapper .footer .icons .fa .fa-youtube {
+  color: white;
+}
+
+.wrapper .footer .icons .fa .fa-instagram {
+  color: white;
+}
+
+.wrapper .footer .icons .fa .fa-pinterest {
+  color: white;
+}
+
+.icon-scroll {
+  width: 50px;
+  height: 80px;
+  box-shadow: inset 0 0 0 3px white;
+  border-radius: 25px;
+  margin-left: calc((100% - 50px) /2);
+  margin-top: 50px;
+}
+
+.icon-scroll .scroll {
+  width: 8px;
+  height: 8px;
+  background: white;
+  margin-left: 20px;
+  border-radius: 5px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  from {
+    top: 0%;
+    opacity: 1;
+  }
+  to {
+    bottom: 100%;
+    opacity: 0;
+    transform: translateY(47px);
+  }
 }
