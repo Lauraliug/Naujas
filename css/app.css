@@ -103,6 +103,7 @@ html {
   background: #f10b0b;
   display: block;
   border-radius: 100%;
+  z-index: 9;
 }
 
 .arrow-btn span {
