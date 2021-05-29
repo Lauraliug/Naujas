@@ -103,7 +103,6 @@ html {
   background: #f10b0b;
   display: block;
   border-radius: 100%;
-  z-index: 9;
 }
 
 .arrow-btn span {
@@ -120,41 +119,41 @@ html {
 .wrapper .header {
   display: inline-block;
   width: 100%;
-  height: 750px;
+  height: 800px;
   background-image: url(../img/falloxbow-1058032-1917x800.jpg);
 }
 
 .wrapper .header h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-family: 'Exo', sans-serif;
   color: black;
   text-align: center;
 }
 
-.wrapper .header form {
-  text-align: center;
+.wrapper form {
   padding-top: 230px;
+  text-align: center;
 }
 
-.wrapper .header form input {
+.wrapper form input {
   width: 30%;
   height: 20px;
   border-bottom: 3px solid white;
   background-color: transparent;
 }
 
-.wrapper .header form p {
+.wrapper form p {
   font-family: 'Exo', sans-serif;
   font-size: 25px;
   color: white;
 }
 
-.wrapper .header form button {
+.wrapper form button {
   background-color: #e9352f;
   color: white;
   width: 100px;
   height: 40px;
-  margin-top: 15px;
+  margin-top: 25px;
   border-radius: 10px;
   box-shadow: 0px 15px 15px 0px #272626;
   font-size: 15px;
@@ -176,7 +175,6 @@ html {
 .wrapper .main .block .box1 {
   width: 100%;
   height: 600px;
-  height: 500px;
 }
 
 .wrapper .main .block .box1 h3 {
@@ -184,12 +182,6 @@ html {
   font-size: 25px;
   padding-top: 90px;
   padding-left: 10px;
-}
-
-.wrapper .main .block .box1 .table {
-  width: auto;
-  height: 300px;
-  padding-top: 50px;
 }
 
 .wrapper .main .block .box1 .file {
@@ -209,7 +201,6 @@ html {
 .wrapper .main .block .box2 {
   width: 100%;
   height: 600px;
-  height: 500px;
 }
 
 .wrapper .main .block .box2 h2 {
@@ -253,7 +244,7 @@ html {
 .wrapper .footer p {
   font-family: 'Exo', sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
 }
 
@@ -265,7 +256,7 @@ html {
 .wrapper .footer .icons .fa {
   width: 20px;
   padding: 20px;
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
   color: white;
 }
@@ -304,7 +295,6 @@ html {
   box-shadow: inset 0 0 0 3px white;
   border-radius: 25px;
   margin-left: calc((100% - 50px) /2);
-  margin-top: 50px;
 }
 
 .icon-scroll .scroll {
