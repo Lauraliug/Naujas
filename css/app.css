@@ -108,7 +108,7 @@ html {
 .arrow-btn span {
   color: white;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 31px;
 }
 
 .wrapper {
@@ -156,7 +156,7 @@ html {
   margin-top: 25px;
   border-radius: 10px;
   box-shadow: 0px 15px 15px 0px #272626;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .wrapper .main {
