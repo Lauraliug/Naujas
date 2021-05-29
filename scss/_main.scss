@@ -13,13 +13,14 @@ html {
     background: rgb(241, 11, 11);
     display: block;
     border-radius: 100%;
-    z-index: 9;
+   
   }
   span {
-   color: $color;
-    font-size: 20px;
-    line-height: 30px;
-  }
+    color: $color;
+     font-size: 20px;
+     line-height: 31px;
+   }
+  
 }
 .wrapper {
   width: 100%;
@@ -27,18 +28,25 @@ html {
   .header {
     display: inline-block;
     width: 100%;
-    height: 750px;
+    height: 800px;
     background-image: url(../img/falloxbow-1058032-1917x800.jpg);
+  
+    
     h1 {
-      font-size: 70px;
+      font-size: 60px;
       font-family: 'Exo', sans-serif;
       color: black;
       text-align: center;
+     
+    }
+    
     }
     form {
-      text-align: center;
       padding-top: 230px;
+      text-align: center;
+    
       input {
+      
         width: 30%;
         height: 20px;
         border-bottom: 3px solid $color;
@@ -55,12 +63,12 @@ html {
         color: $color;
         width: 100px;
         height: 40px;
-        margin-top: 15px;
+        margin-top: 25px;
         border-radius: 10px;
         box-shadow: 0px 15px 15px 0px rgb(39, 38, 38);
-        font-size: 15px;
+        font-size: 16px;
       }
-    }
+    
   }
   .main {
     width: 100%;
@@ -188,7 +196,7 @@ html {
   box-shadow: inset 0 0 0 3px white;
   border-radius: 25px;
   margin-left: calc((100% - 50px) /2);
-  margin-top: 50px;
+  
 
   .scroll {
     width: 8px;
